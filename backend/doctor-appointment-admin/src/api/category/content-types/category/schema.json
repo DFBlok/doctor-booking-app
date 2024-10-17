@@ -25,6 +25,12 @@
         "videos",
         "audios"
       ]
+    },
+    "doctor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::doctor.doctor",
+      "inversedBy": "categories"
     }
   }
 }
